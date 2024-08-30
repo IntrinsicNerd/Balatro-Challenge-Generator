@@ -912,8 +912,8 @@ class LuaGeneratorApp:
             lua_code += "    },\n"
           
         # Generate Card code
+	lua_code += "    deck = {\n"
         if self.card_entries:
-            lua_code += "    deck = {\n"
             lua_code += "        cards = {"
             for entry in self.card_entries:
                 # Get Selected Inputs
