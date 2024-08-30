@@ -1,9 +1,9 @@
 # Balatro-Challenge-Generator
 A python scripted lua generator for making Balatro Challenge Deck Mods.
 
-Launch the python script with your preffered method, choose your desired options, when happy click save to lua file and navigate to your mods folder, create a new folder and save the lua inside of it. You now should have a new challenge called General Challenge under challenges in Balatro.
+Launch the python script with your preffered method, choose your desired options, when happy select SMODS or BU-CB and click save to lua file to bring up your file browser. For SMODS save in your mods folder under a new folder with your challenges name and it should launch as it's own mod in Balatro, appearing under challenges at the end of the list. For BU-CB add to the challenge folder. 
 
-For now only jokers, cards, vouchers and consumables can be edited. There are plans for more customisers such as deck name, author, game conditions, banned cards etc.
+Currently the custom and modifiers lists are empty and just placeholders but will be filled next update. Restrictions will also be added with the next update if all goes well.
 
 Should you wish to make this work with modded options, simply add to the relevant map in order to impliment it as an option in the dropdown.
 
