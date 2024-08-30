@@ -957,7 +957,6 @@ class LuaGeneratorApp:
 #                banned_card_name = entry.banned_cardsdd.get()
 #                banned_card_lua = self.consumable_mapping.get(consumable_name, consumable_name)
 #                lua_code += f"        {{id = '{consumable_lua}'}} ,\n"
-        lua_code += "    },\n"    
         
         lua_code += "        },\n"
         lua_code += "        banned_tags = {\n"
